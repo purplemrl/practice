@@ -1,0 +1,14 @@
+a.link{
+    color: rgb(73, 73, 226);
+    font-size: 30px;
+}
+a.link:visited {
+    color: red;
+}
+div.child{
+    color: blue;
+}
+.child:after {
+    content: "bbb";
+    color: green;
+}
