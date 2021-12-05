@@ -22,3 +22,11 @@ div.item10{
   font-size: 30px;
   text-align: center;
 }
+div.item11{
+    grid-area: 5 / 1 / 8 / 3;  /*chera in kar nemikone?*/
+    background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
