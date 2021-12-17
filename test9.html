@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Java Script</title>
+    <script>
+        function myfunc(){
+            document.getElementById("p6").innerHTML="change";
+        }
+    </script>
 </head>
 <body>
     <h1>Java Script Test</h1>
@@ -29,5 +34,21 @@
     <br>
     <p id="p4" style="display:none">click to show</p>
     <button type="button" onclick="document.getElementById('p4').style.display='block'">click</button>
+    <br>
+    <br>
+    <p id="p5"></p>
+    <script>
+        document.getElementById("p5").innerHTML="different p";
+    </script>
+    <br>
+    <br>
+    <p id="p6">seeee</p>
+    <button type="button" onclick="myfunc()">tryyyy</button>
+    <br>
+    <br>
+    <script>
+        document.write("hello");
+        window.alert("test");
+    </script>
 </body>
 </html>
