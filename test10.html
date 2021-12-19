@@ -14,8 +14,11 @@
     var y=6;
     var z= x + y;
     function myfunc(){
-            document.getElementById("p1").innerHTML=z;
+            document.getElementById("p1").innerHTML=cars.length;
     }
+    const cars=["r","b","a"];
+    cars[0]="t";
+    cars.push("h");
     </script>
     <button onclick="myfunc()">click</button>
 </body>
