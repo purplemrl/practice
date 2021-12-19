@@ -14,11 +14,15 @@
     var y=6;
     var z= x + y;
     function myfunc(){
-            document.getElementById("p1").innerHTML=cars.length;
+            document.getElementById("p1").innerHTML=car.owner+" "+car.color;
     }
     const cars=["r","b","a"];
     cars[0]="t";
     cars.push("h");
+
+    const car={type:"h",model:"10",color:"red"};
+    car.color="blue";
+    car.owner="maral";
     </script>
     <button onclick="myfunc()">click</button>
 </body>
