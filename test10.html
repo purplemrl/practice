@@ -7,13 +7,16 @@
     <title>JavaScript</title>
 </head>
 <body>
+    <h1>JavaScript Test 2</h1>
     <p id="p1"></p>
-    <script
-    >var x=5;
+    <script>
+    var x=5;
     var y=6;
     var z= x + y;
-    document.getElementById("p1").innerHTML=z;
+    function myfunc(){
+            document.getElementById("p1").innerHTML=z;
+    }
     </script>
-    
+    <button onclick="myfunc()">click</button>
 </body>
 </html>
