@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style13.css">
-    <script src="script13.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script13.js"></script>
 </head>
 
 <body>
@@ -20,18 +21,17 @@
     </ul>
     <div class=container>
         <div class="col-md-3">
-            <button onclick="click() " class="btnShow">show</button>
-            <img src="pic_bulbon.gif" id="img1" alt="image" onmouseover="mouseover1()" onmouseout="mouseout1()">
-            <img src="pic_bulboff.gif" id="img2" alt="image" style="opacity: 50%;" onmouseover="mouseover2()"
-                onmouseout="mouseout2()">
-            <button onclick="hide()" class="btnHide">hide</button>
+            <button class="btnShow" id="btnshow">show</button>
+            <img src="pic_bulbon.gif" id="img1" alt="image">
+            <img src="pic_bulboff.gif" id="img2" alt="image" style="opacity: 50%;">
+            <button class="btnHide" id="btnhide">hide</button>
         </div>
         <div class="col-md-9">
             <p>First Name: <input type="text" value="" id="fname"></p>
             <p>Last Name: <input type="text" value="" id="lname"></p>
-            <button onclick="make()">save</button>
+            <button id="btnsave">save</button>
             <p id="name"></p>
-            <button id="print" onclick="window.print()">print</button>
+            <button id="btnprint">print</button>
         </div>
     </div>
 
