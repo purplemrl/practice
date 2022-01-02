@@ -20,7 +20,7 @@ $.getJSON('https://jsonplaceholder.typicode.com/todos/', function (data) {
 
 // $(document).ready(function () {
 //     if ($("#1").click(function () {
-//         $(this).load("https://jsonplaceholder.typicode.com/todos/1 #1");
+//         $(this).load("https://jsonplaceholder.typicode.com/todos/1 ");
 //     }));
 // });
 //https://jsonplaceholder.typicode.com/todos/
